@@ -1,46 +1,32 @@
-Script started on Fri, Feb 14, 2014  4:27:51 PM
-[?1034h]0;/cygdrive/c/Users/Will/Dropbox/_TCNJ Spring 2014/CSC III/isPerfect
-[32mWill@WillLap [33m/cygdrive/c/Users/Will/Dropbox/_TCNJ Spring 2014/CSC III/isPerfect[0m
-$ g++ isPerfect.cpp isPerfectDriver.cpp -0[Ko isPerfectExec
-]0;/cygdrive/c/Users/Will/Dropbox/_TCNJ Spring 2014/CSC III/isPerfect
-[32mWill@WillLap [33m/cygdrive/c/Users/Will/Dropbox/_TCNJ Spring 2014/CSC III/isPerfect[0m
-$ ./isPerfectExec
-Enter the number you want to test: 
-2
-The number 2 is NOT a perfect number.
-]0;/cygdrive/c/Users/Will/Dropbox/_TCNJ Spring 2014/CSC III/isPerfect
-[32mWill@WillLap [33m/cygdrive/c/Users/Will/Dropbox/_TCNJ Spring 2014/CSC III/isPerfect[0m
-$ ./isPerfectExec
-Enter the number you want to test: 
-6
-The number 6 is a perfect number.
-]0;/cygdrive/c/Users/Will/Dropbox/_TCNJ Spring 2014/CSC III/isPerfect
-[32mWill@WillLap [33m/cygdrive/c/Users/Will/Dropbox/_TCNJ Spring 2014/CSC III/isPerfect[0m
-$ ./isPerfectExec
-Enter the number you want to test: 
-74
-The number 74 is NOT a perfect number.
-]0;/cygdrive/c/Users/Will/Dropbox/_TCNJ Spring 2014/CSC III/isPerfect
-[32mWill@WillLap [33m/cygdrive/c/Users/Will/Dropbox/_TCNJ Spring 2014/CSC III/isPerfect[0m
-$ ./isPerfectExec
-Enter the number you want to test: 
-33550336
-The number 33550336 is a perfect number.
-]0;/cygdrive/c/Users/Will/Dropbox/_TCNJ Spring 2014/CSC III/isPerfect
-[32mWill@WillLap [33m/cygdrive/c/Users/Will/Dropbox/_TCNJ Spring 2014/CSC III/isPerfect[0m
-$ ./isPerfectExec
-Enter the number you want to test: 
-hello
-The input was not an integer. Please try again.
-]0;/cygdrive/c/Users/Will/Dropbox/_TCNJ Spring 2014/CSC III/isPerfect
-[32mWill@WillLap [33m/cygdrive/c/Users/Will/Dropbox/_TCNJ Spring 2014/CSC III/isPerfect[0m
-$ 54.0[K[K[K[K./isPerfectExec
-Enter the number you want to test: 
-32.0    496.0
-The number 496 is a perfect number.
-]0;/cygdrive/c/Users/Will/Dropbox/_TCNJ Spring 2014/CSC III/isPerfect
-[32mWill@WillLap [33m/cygdrive/c/Users/Will/Dropbox/_TCNJ Spring 2014/CSC III/isPerfect[0m
-$ exit
+Script started on Fri Feb 21 11:46:18 2014
+[?1034hbash-3.2$ g++ isPerfect.cpp isPerfectDriver.cpp -o isPerfectExec2
+bash-3.2$ ./isPerfectExec23[K
+Enter the upper bound number: 
+100
+The array contains...
+         0         6
+         1        28
+bash-3.2$ 
+bash-3.2$ 
+bash-3.2$ ./isPerfectExec2
+Enter the upper bound number: 
+9000
+The array contains...
+         0         6
+         1        28
+         2       496
+         3      8128
+bash-3.2$ ./isPerfectExec2
+Enter the upper bound number: 
+-9000
+The input was not a positive integer. Please try again.
+bash-3.2$ ./isPerfectExec2
+Enter the upper bound number: 
+b
+The input was not a positive integer. Please try again.
+bash-3.2$ end
+bash: end: command not found
+bash-3.2$ exit
 exit
 
-Script done on Fri, Feb 14, 2014  4:30:04 PM
+Script done on Fri Feb 21 11:48:16 2014

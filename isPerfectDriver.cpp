@@ -14,6 +14,7 @@
 #include <cmath>
 #include <cctype>
 #include <vector>
+#include <iomanip>
 using namespace std;
 #include "isPerfect.h"
 
@@ -24,7 +25,7 @@ using namespace std;
 int main (void)
 {
 	//declarations
-    int inputValue; //the value inputed by the user
+    unsigned int inputValue; //the value inputed by the user
 	bool response; //the response of the isPerfect function
     const int arrayTotalSize = 10; //a constantly defined size
     
@@ -37,12 +38,12 @@ int main (void)
 	if(!(cin >> inputValue))
 	{
 		//the user input is not valid so gracefully show an error message
-		cout << "The input was not an integer. Please try again." << endl;
+		cout << "The input was not a positive integer. Please try again." << endl;
 	}
 	else
 	{
 		
-        arrayLength = populateArray(perfectNumbers, inputValue)
+        int arrayLength = populateArray(perfectNumbers, arrayTotalSize, inputValue);
 		printArray(perfectNumbers,arrayLength);
     }
 

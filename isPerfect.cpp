@@ -13,6 +13,7 @@
 #include <cmath>
 #include <cctype>
 #include <vector>
+#include <iomanip>
 using namespace std;
 /**
 * sumVector: commutes the sum of the elements of a vector of type int
@@ -67,7 +68,11 @@ bool isPerfect(int number)
 	}
 }
 
-int populateArray(int[], int ub)
+
+/**
+ * populateArray: takes an empty array (passed by reference) and the upper bound number to check for (ub), returns the length of items in the array
+ */
+int populateArray(int perfectNumbers[], int arrayTotalSize, int ub)
 {
     
     int arrayLength = 0; //a counter for the number of valid items in the array
@@ -89,12 +94,12 @@ int populateArray(int[], int ub)
     
     
 }
-void printArray(int[] array, int numberOfItems)
+void printArray(int array[], int numberOfItems)
 {
-    
+    cout<<"The array contains..."<<endl;
     for(int i=0;i<numberOfItems;++i)
     {
-        cout<<array[i]<<endl;
+        cout<<setw(10)<<i<<setw(10)<<array[i]<<endl;
     }
     
 }
